@@ -10,11 +10,11 @@ main > :last-child {
   margin-bottom: min(10vmax, 10rem);
 }
 
-body{
-    background-color: rgb(192, 43, 35);
+body.scaffold{
+    background-color: red;
 }
 
 p {
-    color:rgb(38, 95, 0);
+    color:blue;
     font-weight: bold;
 }
