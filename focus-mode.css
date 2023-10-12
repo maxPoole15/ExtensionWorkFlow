@@ -14,7 +14,7 @@ body > .scaffold {
     background-color: black;
 }
 
-p {
+p > .scaffold {
     color:white;
     font-weight: bold;
 }
