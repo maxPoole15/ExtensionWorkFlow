@@ -10,8 +10,8 @@ main > :last-child {
   margin-bottom: min(10vmax, 10rem);
 }
 
-body.scaffold{
-    background-color: red;
+body > .scaffold {
+    background-color: yellow;
 }
 
 p {
