@@ -11,14 +11,10 @@ main > :last-child {
 }
 
 body{
-    background-color: lightslategray;
+    background-color: rgb(192, 43, 35);
 }
 
-h1{
-    color: blue;
-    font-weight: bolder;
-}
 p {
-    color:green;
+    color:rgb(38, 95, 0);
     font-weight: bold;
 }
