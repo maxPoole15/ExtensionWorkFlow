@@ -2,9 +2,27 @@
     "manifest_version": 3,
     "name": "Hello Extension of the World",
     "description": "Practicing Creating an Extension",
+    "permission": ["activeTab", "scripting"],
     "version": "1.0",
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+
     "action": {
-        "default_popup": "hello.html",
-        "default_icon": "hello_extension.png"
+        "default_icon": 
+        {
+            "16": "images/16.png",
+            "32": "images/32.png",
+            "48": "images/48.png",
+            "128": "images/128.png"
+        }
     }
 }
