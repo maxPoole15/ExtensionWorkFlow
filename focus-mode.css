@@ -11,10 +11,10 @@ main > :last-child {
 }
 
 body > .scaffold {
-    background-color: yellow;
+    background-color: black;
 }
 
 p {
-    color:blue;
+    color:white;
     font-weight: bold;
 }
