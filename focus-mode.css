@@ -16,10 +16,9 @@ body{
 
 h1{
     color: blue;
+    font-weight: bolder;
 }
-h2 {
+p {
     color:green;
-}
-h3{
-    color:yellow;
+    font-weight: bold;
 }
